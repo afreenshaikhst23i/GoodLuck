@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Good Luck</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="plugin/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"><!--Owl crosal css-->
+    <link rel="stylesheet" href="plugin/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"><!--Owl crosal css-->
+    <script src="plugin/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script><!--Owl crosal js-->
+
+	<link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap\js\bootstrap.min.js">
+
+	<link href=" https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Allura|Kaushan+Script|Pacifico|Playball&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet"> <!-- 'Dancing Script', cursive;  -->
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">   <!-- font-family: 'Cookie', cursive;  -->
+	<link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">  <!-- font-family: 'Arizonia', cursive; -->
+	<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">  <!-- font-family: 'Original Surfer', cursive;  -->
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">  <!-- font-family: 'EB Garamond', serif;  -->
+
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/fc.css">
+  
+  
+  
+  
+  <style>
+	<style>
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+  </style>
+  
+  
+</head>
+<!--   <body oncontextmenu="return false;">  TO DISABLE INSPECT ELEMENT -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<header class="menu">
+	<nav class="navbar m-b-none" data-spy="affix" data-offset-top="197">
+	  <div class="col-sm-10 col-sm-offset-1 p-lr-none">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand" href="#"><img src="image/LOGO/PNG/001.png"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#aboutId">About Us</a></li>
+			<li><a href="#serviceId">Our Services</a></li>
+			<li><a href="#portfolioId">Portfolio</a></li>
+			<!-- <li><a href="#albumId">Our Albums</a></li> -->
+			<li><a href="#contactId">Contact us</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+</header>
+
+<div class="container-fluid p-lr-none">
+	<!--Owl crosal html code start here-->
+	<div class="col-xs-12 col-sm-12 p-lr-none owl-carousel owl-theme">
+		<div>
+		<img src="https://assets.vogue.in/photos/5ce4198ecc50be804213dcc0/master/pass/Deepika-Padukone-and-Ranveer-Singh-wedding-i-in-Lake-Como-22.jpg">
+		</div>
+		<div>
+		<img src="https://assets.vogue.in/photos/5ce4198ecc50be804213dcc0/master/pass/Deepika-Padukone-and-Ranveer-Singh-wedding-i-in-Lake-Como-22.jpg">
+		</div>
+		<div>
+		<img src="https://assets.vogue.in/photos/5ce4198ecc50be804213dcc0/master/pass/Deepika-Padukone-and-Ranveer-Singh-wedding-i-in-Lake-Como-22.jpg">
+		</div>
+		<div>
+		<img src="https://assets.vogue.in/photos/5ce4198ecc50be804213dcc0/master/pass/Deepika-Padukone-and-Ranveer-Singh-wedding-i-in-Lake-Como-22.jpg">
+		</div> 
+	</div>
+	<!--Owl crosal html code end here-->
+</div>
+
+<div class="container p-lr-none" id="aboutId"> 
+	<div class="col-sm-12 p-lr-none headings">
+		<h2>About Us</h2>
+	</div>
+	
+	<div class="col-sm-12 p-lr-none aboutUs">
+		<p>
+			Hi. My name is Zuber Shaikh. I am a Mumbai based photographer. 
+			I am into photography since 1995 when photography was new and smartphones weren’t there.
+			<br><br>
+			I knew I wanted to become a photographer when I first held camera in my hand and have seen my own clicked photographs. 
+			The feeling of capturing moments was just beautiful. And I haven’t stopped since then. <br>
+
+			Here at GOODLUCK DIGITAL PHOTO STUDIO we just not take pictures but we create memories. 
+			In the last 25(many) years we’ve been a part of hundreds of weddings, events, photoshoots and more, 
+			and we are continuously growing and evolving each day.  
+			<br><br>
+			We will be more than happy to be a part of you special day and make it more memorable for you. <a href="#contactId">Contact Us</a>
+
+		</p>
+		<img src="image/aboutImg8.jpg">
+	</div>
+</div>
+
+
+
+
+
+<div class="container p-lr-none" id="serviceId"> 
+	<div class="col-sm-12 p-lr-none headings">
+		<h2>Our Services</h2>
+	</div>
+</div>
+<div class="container-fluid p-lr-none"> 
+	<div class="col-sm-12 p-lr-none text-center OurServices">
+		<div class="Oservice" id="weddingSrvc">
+			<div>
+				<h3>Wedding Photography and video</h3>
+			</div>
+		</div>
+		<div class="Oservice" id="preweddingSrvc">
+			<div>
+				<h3>Pre-Wedding Photography and video</h3>
+			</div>
+		</div>
+		<div class="Oservice" id="birthdaySrvc">
+			<div>
+				<h3>Birthday Parties</h3>
+			</div>
+		</div>
+		<div class="Oservice" id="eventSrvc">
+			<div>
+				<h3>All Kind of Events</h3>
+			</div>
+		</div>
+		<div class="Oservice" id="foodSrvc">
+			<div>
+				<h3>Food photography</h3>
+			</div>
+		</div>
+		<div class="Oservice" id="productSrvc">
+			<div>
+				<h3>Product Photography</h3>
+			</div>
+		</div>
+		<div class="Oservice" id="portfolioSrvc">
+			<div>
+				<h3>Portfolio Shoots</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid p-lr-none attachBackground"> 
+	<div class="col-sm-12 p-lr-none">
+		<p>"Great photography is about depth of feeling, not depth of field."</p>
+		<a href="#contactId">Get In Touch</a>
+	</div>
+</div>
+
+<div class="container p-lr-none" id="portfolioId"> 
+	<div class="col-sm-12 p-lr-none headings">
+		<h2>Our Portfolio</h2>
+	</div>
+	
+	<div class="col-sm-12 p-lr-none">
+		<div class="col-sm-3 homeGallery verticalImg">
+			<img src="https://i.pinimg.com/originals/d7/bb/a6/d7bba695c282d6857a95bee064413fc1.jpg">
+		</div>
+		<div class="col-sm-3 homeGallery horizontalImg">
+			<div class="col-sm-12 p-lr-none">
+				<img src="https://www.linandjirsa.com/wp-content/uploads/010-galway-downs-temecula-wedding-photography.jpg">
+			</div>
+			<div class="col-sm-12 p-lr-none">
+				<img src="https://www.slrlounge.com/wp-content/uploads/2017/02/01-rain-photography-idea.jpg">
+			</div>
+		</div>
+		<div class="col-sm-3 homeGallery verticalImg">
+			<img src="https://imgmedia.lbb.in/media/2019/03/5c99cf00b07bd446014221b4_1553583872757.jpg">
+		</div>
+		<div class="col-sm-3 homeGallery horizontalImg">
+			<div class="col-sm-12 p-lr-none">
+				<img src="https://images.squarespace-cdn.com/content/v1/527a8776e4b0d4e47bb06d3f/1551985109924-BKTF1HZBYW7CCFFR7QCF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/wedding-photography-ireland-wbk.jpg?format=2500w">
+			</div>
+			<div class="col-sm-12 p-lr-none">
+				<img src="https://www.trueshadesphotography.com/wp-content/uploads/2018/08/destination-wedding-photographers-47.jpg">
+			</div>
+		</div>
+		<div class="col-sm-3 homeGallery horizontalImg">
+			<div class="col-sm-12 p-lr-none">
+				<img src="https://i.ytimg.com/vi/iFj-YGsg5FQ/maxresdefault.jpg">
+			</div>
+			<div class="col-sm-12 p-lr-none">
+				<img src="https://www.subodhbajpai.in/images/slide/slidern1.jpg">
+			</div>
+		</div>
+		<div class="col-sm-3 homeGallery verticalImg">
+			<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F36%2F2019%2F04%2F12172142%2Fcristina-chris-wedding-couple-060-0319.jpg&q=85">
+		</div>
+		<div class="col-sm-3 homeGallery horizontalImg">
+			<div class="col-sm-12 p-lr-none">
+				<img src="https://lh3.googleusercontent.com/proxy/v5jHMGtreeTLVJ_EoDR-L8bbegjJadakeIpqu6-9yrF7Zi7fIhw4gvXTJEG9NlwkdQAoLLgZWrmWFfotaNZlBQKc7iJCNXAq4FaURWkYl6wY13QboHvhY-DjSR7W4B6s6iQjFLgv3KIC8O9Bu-QPBM67Vo2ThWGieiwLHNqi-Bqd27u4">
+			</div>
+			<div class="col-sm-12 p-lr-none">
+				<img src="https://www.subodhbajpai.in/images/slide/pre-wedding-delhi-banner.jpg">
+			</div>
+		</div>
+		<div class="col-sm-3 homeGallery verticalImg" data-toggle="modal" data-target="#portfolioModal">
+			<img src="https://www.shaadidukaan.com/vogue/wp-content/uploads/2019/10/Wedding-Photography-Poses.jpg">
+		</div>
+	</div>
+</div>
+
+ <div class="modal fade" id="portfolioModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <img id="portfolioModalImg" src="" height="300px" width="300px">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<div class="container p-lr-none"> 
+	<div class="col-sm-12 p-lr-none headings">
+		<h2>Our Wedding Photography Album</h2>
+	</div>
+	
+	<div class="col-sm-12 p-lr-none ourAlbums">
+			<div class="col-sm-6">
+				<img src="image/portfolio-H8.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+			</div>
+			<div class="col-sm-6">
+				<img src="image/portfolio-H6.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+			</div>
+
+		<div id="myModal" class="modal">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+			<div class="mySlides">
+			  <div class="numbertext">1 / 4</div>
+			  <img src="image/weddingService.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">2 / 4</div>
+			  <img src="image/preweddingService.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">3 / 4</div>
+			  <img src="image/birthdayService.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">4 / 4</div>
+			  <img src="image/formalService.jpg" style="width:100%">
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+			  <p id="caption"></p>
+			</div>
+		  </div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container p-lr-none" id="contactId"> 
+	<div class="col-sm-12 p-lr-none headings">
+		<h2>Contact Us</h2>
+	</div>
+</div>
+
+<div class="container-fluid p-lr-none m-t-none contactDetails attachBackground"> 
+	<div class="col-sm-12 p-lr-none">
+		<div class="col-sm-4"><i class="fas fa-mobile-alt"></i> <br> 9029913925 / 9004768168</div>
+		<div class="col-sm-4"><i class="fas fa-map-marker-alt"></i> <br> Shop No.3, Ambedkar Nagar, Jarimari, Kurla-Andheri Road, Mumbai - 400072.</div>
+		<div class="col-sm-4"><i class="fas fa-envelope"></i> <br>zuber.shaikh1968@gmail.com</div>
+	</div>
+</div>
+
+
+
+
+<div class="container-fluid p-lr-none bg-Lblack"> 
+	<div class="col-sm-10 col-sm-offset-1 p-lr-none socialM">
+		<ul class="hidden-xs">
+			<li><img src="image/instagramSilver.png"> Instagram</li>
+			<li><img src="image/facebookSilver.png"> Facebook</li>
+			<li><img src="image/linkedInSilver.png"> LinkedIn</li>
+		</ul>
+		<ul class="visible-xs">
+			<li><img src="image/instagramSilver.png"></li>
+			<li><img src="image/facebookSilver.png"></li>
+			<li><img src="image/linkedInSilver.png"></li>
+		</ul>
+	</div>
+</div>
+<footer class="container-fluid p-lr-none bg-black text-center">
+	<div class="col-sm-4 p-r-none"><p>Copyright © 2020 Good Luck Digital Photo Studio.</p></div>
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4 p-l-none"><p>All rights reserved. Site by Afreen Shaikh</p></div>
+</footer>
+
+
+
+<!--Owl crosal js code start here-->
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+	autoplay:true,
+	autoplaySpeed:2000,
+	slideSpeed : 7000,
+    autoplayHoverPause:true,
+    //margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false
+        }
+    }
+})
+</script>
+<!--Owl crosal js code end here-->
+
+<!--   TO DIISABLE INSPECT ELEMENT
+<script>
+document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script>   -->
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<script>
+	
+	$(document).ready(function(){
+	  $(".homeGallery img").click(function(){
+	  
+		var abc = $(this).attr('src');
+	  
+		 $('#portfolioModal').modal('show');
+		 $('#portfolioModalImg').attr('src', abc);
+	  });
+	});
+</script>
+
+
+</body>
+</html>
